@@ -1,0 +1,21 @@
+https://www.withoutrobots.com
+ -> https://www.withoutrobots.com/about.html
+
+https://www.withoutrobots.com/about.html
+ -> https://www.withoutrobots.com/contact.html
+ -> https://www.withoutrobots.com/execs.html
+ -> https://www.withoutrobots.com/jobs.html
+ -> https://www.withoutrobots.com/privacy.html
+
+https://www.withoutrobots.com/contact.html
+
+https://www.withoutrobots.com/execs.html
+ -> https://www.withoutrobots.com/secrets.html
+
+https://www.withoutrobots.com/jobs.html
+
+https://www.withoutrobots.com/privacy.html
+ -> https://www.withoutrobots.com/contact.html
+
+https://www.withoutrobots.com/secrets.html
+

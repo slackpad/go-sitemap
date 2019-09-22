@@ -1,0 +1,18 @@
+https://www.withrobots.com
+ -> https://www.withrobots.com/about.html
+
+https://www.withrobots.com/about.html
+ -> https://www.withrobots.com/contact.html
+ -> https://www.withrobots.com/execs.html
+ -> https://www.withrobots.com/jobs.html
+ -> https://www.withrobots.com/privacy.html
+
+https://www.withrobots.com/contact.html
+
+https://www.withrobots.com/execs.html
+
+https://www.withrobots.com/jobs.html
+
+https://www.withrobots.com/privacy.html
+ -> https://www.withrobots.com/contact.html
+
