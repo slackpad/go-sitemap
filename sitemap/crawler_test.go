@@ -41,7 +41,7 @@ func TestCrawler_Errors(t *testing.T) {
 	t.Run("bad parallelism", func(t *testing.T) {
 		_, warnings, err := crawl(logger, fetcher, "https://www.404s.com", 0)
 		require.Zero(t, warnings)
-		require.Contains(t, err.Error(), "Parallelism must > 0 (got 0)")
+		require.Contains(t, err.Error(), "Parallelism must be > 0 (got 0)")
 	})
 
 	t.Run("missing page", func(t *testing.T) {

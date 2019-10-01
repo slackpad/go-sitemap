@@ -24,7 +24,7 @@ func Crawl(logger hclog.Logger, rootURL string, parallelism int) (*Sitemap, int,
 // for testing.
 func crawl(logger hclog.Logger, fetcher fetchFn, rootURL string, parallelism int) (*Sitemap, int, error) {
 	if parallelism < 1 {
-		return nil, 0, fmt.Errorf("Parallelism must > 0 (got %d)", parallelism)
+		return nil, 0, fmt.Errorf("Parallelism must be > 0 (got %d)", parallelism)
 	}
 
 	robots, err := getRobots(fetcher, rootURL)
