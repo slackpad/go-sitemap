@@ -108,7 +108,7 @@ type pageResult struct {
 type resultChan chan *pageResult
 
 // getRobots fetches the robots.txt file from the site, if it exists, and
-// returns a filer group we can use to test if we are allowed to crawl a
+// returns a filter group we can use to test if we are allowed to crawl a
 // given URL. If there's no robots.txt present this won't throw an error,
 // it will return an all-pass filter.
 func getRobots(fetcher fetchFn, rootURL string) (*robotstxt.Group, error) {
